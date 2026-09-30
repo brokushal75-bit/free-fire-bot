@@ -22,16 +22,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8832974520:AAE1_8WfwFIGX7zWncArBNnVmpRwkGUeh0U")
 
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@your channel username"]
-GROUP_JOIN_LINK = "https://t.me/your_group_link"
-OWNER_ID = your tg user id (integer)    #Example: 6282811167
-OWNER_USERNAME = "@your username"
+REQUIRED_CHANNELS = ["@hsllomdjdjd"]
+GROUP_JOIN_LINK = "https://t.me/hiskimhexjcj"
+OWNER_ID = 6719304003    #Example: 6282811167
+OWNER_USERNAME = "@Noob_dvl"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
